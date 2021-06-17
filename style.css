@@ -1,0 +1,36 @@
+
+.col1{
+    display: flex;
+}
+.con1{
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    align-items:center;
+}
+
+.img1 :hover{
+    transform: scale(1.1);
+    transition-duration: 1000ms;
+}
+#con-hid{
+    visibility: hidden;
+}
+button{
+    cursor: pointer;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+}
+h4,p{
+    font-family: 'Neuton', serif;
+}
+h4{
+    font-weight: bold;
+}
+body{
+    background-color: lightyellow;
+}
+.card{
+    background-color: rgb(243, 219, 196);
+}

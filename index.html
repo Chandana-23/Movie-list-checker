@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@200&display=swap" rel="stylesheet">
+    <title>IMDb</title>
+</head>
+<body>
+    <div class="container con1 mt-3 p-3">
+        <button class="btn btn-primary mt-3 mb-3" onclick="reload()"><i class="fas fa-home"></i></button><br/>
+        <h1>Get a review of movies</h1><br/>
+        <details title="Histroy" class="mb-3">All the content is from IMDb.
+            IMDb is an online database of information related to films, television programs, home videos, video games, and streaming content online – including cast, production crew and personal biographies, plot summaries, trivia, ratings, and fan and critical reviews.</details>
+        <input type="search" placeholder="Search">
+        <button class="btn btn-info" onclick="fun()">Search</button>
+    </div>
+    
+    <div class="container mt-4" id="bigcon">
+        <div class="row">
+                <div class="col1">
+                    <div class="card text-center p-3 m-3" id="radhe">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Radhe_film_poster.jpg/220px-Radhe_film_poster.jpg" alt="" width="250px">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title pt-3">Radhe</h4>
+                        <p class="card-text">Radhe, a daredevil encounter specialist of the Mumbai Police force, vows to knock down the crime syndicate led by an evil drug lord.</p>
+                    </div>
+                </div>
+                <div class="card text-center p-3 m-3" id="vakeel saab">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/9/97/Vakeel_Saab.jpg" alt="" width="250px">
+                    </div>
+                    <div class="card-body">
+                    <h4 class="card-title pt-3">Vakeel Saab</h4>
+                    <p class="card-text">A criminal lawyer helps three young women fight a molestation case against a rich brat.</p>
+                    </div>
+                </div>
+                <div class="card text-center p-3 m-3" id="master">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Master_2021_poster.jpg/220px-Master_2021_poster.jpg" alt="" width="250px">
+                    </div>
+                    <div class="card-body">
+                    <h4 class="card-title pt-3">Master</h4>
+                    <p class="card-text">JD, an alcoholic professor, is enrolled to teach at a juvenile facility, unbeknownst to him. He soon clashes with a ruthless gangster, who uses the children as scapegoats for his crimes.</p>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            <div class="col1">
+                <div class="card text-center p-3 m-3" id="witches">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/a/a7/The_Witches_%28Official_2020_Film_Poster%29.png" alt="" width="250px">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title pt-3">Witches</h4>
+                        <p class="card-text">In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered her fellow cronies from around the globe -- under cover -- to carry out her nefarious plans.</p>
+                    </div>
+                </div>
+                <div class="card text-center p-3 m-3" id="ava">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://m.media-amazon.com/images/M/MV5BMTMzMTg1MjgtOWNhYy00NmZmLWExOTctMjA2OTZhZDFkNDhhXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg" alt="" width="250px">
+                    </div>
+                    <div class="card-body">
+                    <h4 class="card-title pt-3">Ava</h4>
+                    <p class="card-text">An assassin becomes marked for death by her own black ops organization after questioning orders and breaking protocol.</p>
+                    </div>
+                </div>
+                <div class="card text-center p-3 m-3" id="uppena">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://www.pinkvilla.com/files/styles/contentpreview/public/uppena_movie_review_.jpg?itok=c0uyr8BB" alt="" width="250px">
+                    </div>
+                    <div class="card-body">
+                    <h4 class="card-title pt-3">Uppena</h4>
+                    <p class="card-text">Aasirvadham, a fisherman, falls in love with Sangeetha, the daughter of the village head. However, complications arise when caste differences and ego issues take the lead.</p>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            <div class="col1">
+                <div class="card text-center p-3 m-3" id="red">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://m.media-amazon.com/images/M/MV5BNmZhOGE2OTMtYTViOS00NzBjLThjYmMtZWEwYTdjZTE5NTJkXkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_.jpg" alt="" width="250px">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title pt-3">Red</h4>
+                        <p class="card-text">When identical twins reunite after parting ways during their childhood, they find themselves trapped in a labyrinth of secrets, deception and crime.</p>
+                    </div>
+                </div>
+                <div class="card text-center p-3 m-3" id="karnan">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Karnan_Soundtrack_Cover%3B_Think_Music.jpg" alt="" width="250px">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title pt-3">Karnan</h4>
+                        <p class="card-text">Karnan is a 2021 Indian Tamil-language action drama film directed by Mari Selvaraj, and produced by Kalaipuli S. Thanu under his V Creations banner. The film stars Dhanush, Lal, Yogi Babu, Natarajan Subramaniam, and Rajisha Vijayan.</p>
+                    </div>
+                </div>
+                <div class="card text-center p-3 m-3" id="nizhal">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://m.media-amazon.com/images/M/MV5BNWU5OTY4MmYtNWIzYi00ODhkLWE0MDgtZDlkYjFjMmVlZTkxXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_.jpg" alt="" width="250px">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title pt-3">Nizhal</h4>
+                        <p class="card-text">John Baby, who is recouping from a traumatic accident, meets Nitin, a young boy who interests him with murder stories. When Baby explores the possibility of Nitin's stories by mapping the events, it corresponds with the actual incidents.</p>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            <div class="col1">
+                <div class="card text-center p-3 m-3" id="jathi ratnalu">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://mcmscache.epapr.in/post_images/website_197/post_21401634/604aebe66660c.jpg" alt="" width="250px">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title pt-3">Jathi Ratnalu</h4>
+                        <p class="card-text">Jathi Ratnalu is a 2021 Indian Telugu-language comedy-drama film written and directed by Anudeep KV. Produced by Nag Ashwin under Swapna Cinema, the film stars Naveen Polishetty, Priyadarshi, Rahul Ramakrishna, and Faria Abdullah while Murali Sharma, Brahmanandam and Naresh play supporting roles.</p>
+                    </div>
+                </div>
+                <div class="card text-center p-3 m-3" id="sasi">
+                    <div class="img1">
+                        <img class="card-img-top" src="https://in-aps.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sashi-et00307387-15-03-2021-06-23-24.jpg" alt="" width="250px">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title pt-3">Sasi</h4>
+                        <p class="card-text">Raj, an alcoholic singer with anger issues, starts falling in love with Sashi, a woman who has a traumatic past. As they grow close, their respective troubles threaten to ruin them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="con-hid">
+        <div class="card text-center p-3 m-3" id="result">
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
